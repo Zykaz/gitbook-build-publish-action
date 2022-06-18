@@ -1,4 +1,4 @@
-FROM Zykaz/gitbook:light
+FROM dh7382/gitbook:light
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
